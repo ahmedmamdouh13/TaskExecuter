@@ -25,7 +25,7 @@ import com.luftborn.taskexecuterapp.ui.theme.TOOLBAR_TITLE_COLOR
 import com.luftborn.taskexecuterapp.ui.theme.TaskExecuterAppTheme
 import com.luftborn.taskexecuterapp.util.DateUtil
 
-class MainActivity : ComponentActivity() {
+class LogActivity : ComponentActivity() {
     private lateinit var taskViewModel: TaskViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {

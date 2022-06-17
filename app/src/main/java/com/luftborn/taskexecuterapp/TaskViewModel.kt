@@ -16,8 +16,6 @@ import kotlinx.coroutines.launch
 
 class TaskViewModel() : ViewModel() {
 
-
-
     private val listOfOutPuts = mutableStateListOf<OutputDataModel>()
 
     private val taskQueue = arrayListOf<Task>()

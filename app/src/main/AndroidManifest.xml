@@ -14,7 +14,7 @@
         android:theme="@style/Theme.TaskExecuterApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".LogActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:label="@string/app_name"
