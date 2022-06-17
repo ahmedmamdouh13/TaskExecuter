@@ -1,4 +1,4 @@
-package com.luftborn.taskexecuterapp.ui.logscreen
+package com.luftborn.taskexecuterapp.presentation.ui.logscreen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -12,7 +12,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.luftborn.taskexecuterapp.Constants.TOOLBAR_LOGSCREEN_TITLE
 import com.luftborn.taskexecuterapp.R
-import com.luftborn.taskexecuterapp.ui.theme.TOOLBAR_TITLE_COLOR
+import com.luftborn.taskexecuterapp.presentation.ui.theme.TOOLBAR_TITLE_COLOR
 
 
 @Composable

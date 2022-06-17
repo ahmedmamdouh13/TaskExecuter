@@ -1,4 +1,4 @@
-package com.luftborn.taskexecuterapp.ui.theme
+package com.luftborn.taskexecuterapp.presentation.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

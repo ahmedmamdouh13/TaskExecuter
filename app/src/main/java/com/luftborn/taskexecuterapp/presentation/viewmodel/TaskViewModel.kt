@@ -1,4 +1,4 @@
-package com.luftborn.taskexecuterapp
+package com.luftborn.taskexecuterapp.presentation.viewmodel
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.MutableLiveData

@@ -1,4 +1,4 @@
-package com.luftborn.taskexecuterapp.ui.logscreen
+package com.luftborn.taskexecuterapp.presentation.ui.logscreen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -14,8 +14,7 @@ import androidx.compose.ui.text.font.FontWeight.Companion.Bold
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.luftborn.taskexecuterapp.data.model.OutputDataModel
-import com.luftborn.taskexecuterapp.ui.theme.BORDER_COLOR
-import kotlin.math.log
+import com.luftborn.taskexecuterapp.presentation.ui.theme.BORDER_COLOR
 
 @Composable
 fun LogItem(model: List<OutputDataModel>){

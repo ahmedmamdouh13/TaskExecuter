@@ -1,29 +1,22 @@
-package com.luftborn.taskexecuterapp
+package com.luftborn.taskexecuterapp.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Scaffold
 import androidx.compose.material.Surface
-import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-import com.luftborn.taskexecuterapp.data.model.OutputDataModel
-import com.luftborn.taskexecuterapp.ui.logscreen.LogItem
-import com.luftborn.taskexecuterapp.ui.logscreen.TaskItemList
-import com.luftborn.taskexecuterapp.ui.logscreen.ToolbarItem
-import com.luftborn.taskexecuterapp.ui.theme.TOOLBAR_TITLE_COLOR
-import com.luftborn.taskexecuterapp.ui.theme.TaskExecuterAppTheme
-import com.luftborn.taskexecuterapp.util.DateUtil
+import com.luftborn.taskexecuterapp.presentation.ui.logscreen.LogItem
+import com.luftborn.taskexecuterapp.presentation.ui.logscreen.TaskItemList
+import com.luftborn.taskexecuterapp.presentation.ui.logscreen.ToolbarItem
+import com.luftborn.taskexecuterapp.presentation.ui.theme.TaskExecuterAppTheme
+import com.luftborn.taskexecuterapp.presentation.viewmodel.TaskViewModel
 
 class LogActivity : ComponentActivity() {
     private lateinit var taskViewModel: TaskViewModel

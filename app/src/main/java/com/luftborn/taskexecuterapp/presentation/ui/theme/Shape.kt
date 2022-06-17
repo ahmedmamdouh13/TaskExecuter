@@ -1,4 +1,4 @@
-package com.luftborn.taskexecuterapp.ui.theme
+package com.luftborn.taskexecuterapp.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

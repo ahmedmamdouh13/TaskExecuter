@@ -1,4 +1,4 @@
-package com.luftborn.taskexecuterapp.ui.logscreen
+package com.luftborn.taskexecuterapp.presentation.ui.logscreen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -20,7 +20,7 @@ import com.luftborn.taskexecuterapp.Constants.TASK_1
 import com.luftborn.taskexecuterapp.Constants.TASK_2
 import com.luftborn.taskexecuterapp.Constants.TASK_3
 import com.luftborn.taskexecuterapp.Constants.TASK_4
-import com.luftborn.taskexecuterapp.ui.theme.BORDER_COLOR
+import com.luftborn.taskexecuterapp.presentation.ui.theme.BORDER_COLOR
 
 
 val task1ButtonState = mutableStateOf(false)
