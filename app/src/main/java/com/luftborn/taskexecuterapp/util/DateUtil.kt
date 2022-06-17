@@ -23,5 +23,4 @@ object DateUtil {
         return if (digit < 10) "0$digit" else digit.toString()
     }
 
-
 }

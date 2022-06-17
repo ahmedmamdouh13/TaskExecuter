@@ -33,8 +33,6 @@ class LogActivity : ComponentActivity() {
 
         taskViewModel = TaskViewModel()
 
-
-
         setContent {
             TaskExecuterAppTheme {
                 // A surface container using the 'background' color from the theme

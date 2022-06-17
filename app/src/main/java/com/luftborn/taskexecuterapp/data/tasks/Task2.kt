@@ -7,7 +7,6 @@ import kotlinx.coroutines.delay
 
 class Task2() : Task() {
 
-
     override suspend fun execute(): OutputDataModel {
         delay(ENDPOINT_DELAY)
         return getDataModel(TASK_2)

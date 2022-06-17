@@ -38,7 +38,6 @@ fun LogItem(model: List<OutputDataModel>){
             .wrapContentHeight()
             .padding(vertical = 18.dp), reverseLayout = true) {
 
-
             items(model.asReversed()){
                 val displayableDate = it.displayableDate
                 val taskTitle = it.taskTitle
@@ -53,8 +52,4 @@ fun LogItem(model: List<OutputDataModel>){
         }
     }
 
-}
-
-fun getLogText(it: OutputDataModel): String {
-    return "${it.displayableDate} ${it.taskTitle}"
 }
