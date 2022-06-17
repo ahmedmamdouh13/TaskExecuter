@@ -21,21 +21,6 @@ class TaskViewModel() : ViewModel() {
     private val taskQueue = arrayListOf<Task>()
     val liveData = MutableLiveData<List<OutputDataModel>>()
 
-    private fun executeTask1() {
-        execute(Task1())
-    }
-
-    private fun executeTask2() {
-        execute(Task2())
-    }
-
-    private fun executeTask3() {
-        execute(Task3())
-    }
-
-    private fun executeTask4() {
-        execute(Task4())
-    }
 
     private fun execute(task: Task) {
         taskQueue.add(task)
@@ -68,6 +53,23 @@ class TaskViewModel() : ViewModel() {
             TASK_4 -> executeTask4()
         }
     }
+
+    private fun executeTask1() {
+        execute(Task1())
+    }
+
+    private fun executeTask2() {
+        execute(Task2())
+    }
+
+    private fun executeTask3() {
+        execute(Task3())
+    }
+
+    private fun executeTask4() {
+        execute(Task4())
+    }
+
 
 
 }

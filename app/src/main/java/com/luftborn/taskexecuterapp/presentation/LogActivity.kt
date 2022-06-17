@@ -3,7 +3,9 @@ package com.luftborn.taskexecuterapp.presentation
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
@@ -43,7 +45,10 @@ class LogActivity : ComponentActivity() {
     @Composable
     fun LogScreen() {
         Column(
-            modifier = Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally
+            modifier = Modifier.fillMaxSize()
+                .verticalScroll(state = ScrollState(0))
+            ,
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
             ToolbarItem()
 
@@ -54,6 +59,9 @@ class LogActivity : ComponentActivity() {
             Spacer(modifier = Modifier.padding(58.dp))
 
             TaskItemList(::onTaskClicked)
+
+            Spacer(modifier = Modifier.padding(58.dp))
+
         }
     }
 
